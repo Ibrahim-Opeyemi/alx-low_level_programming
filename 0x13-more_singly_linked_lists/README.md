@@ -1,11 +1,11 @@
-**0x13. C - More singly linked lists - ALX Software Engineering Project. This project focuses on:
-- **C
-- **Algorithm
-- **Data structure
+**0x13. C - More singly linked lists - ALX Software Engineering Project. This project focuses on:**
+- **C**
+- **Algorithm**
+- **Data structure**
 
 The project consists of 11 Mandatory Tasks & 4 Advanced Tasks.
 
-**Mandatory Tasks:
+**Mandatory Tasks:**
 1. Writing a function that prints all the elements of a listin_t list.
 - Prototype: size_t print_listint(const listint_t *h);
 - Return: the number of nodes
