@@ -1,6 +1,7 @@
 #include "function_pointers.h"
 #include "3-calc.h"
 #include <stddef.h>
+#include <stdlib.h>
 
 /**
  * get_op_func - This is a function that selects the correct function
@@ -18,15 +19,12 @@ int (*get_op_func(char *s))(int, int)
 		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
-		{NULL, NULL}
+		{NULL, NULL},
 	};
-	int i;
+	int i = 0;
 
-	for (i = 0; ops[i].op != NULL; i++)
-	{
-		if (*(ops[i].op) == *s && *(s + 1) == '\0')
-			return (ops[i].f);
-	}
+	while (ops[i].op != NULL && *(ops[i].op) != *s)
+		i++;
 
-	return (NULL);
+	return (ops[i].f);
 }
