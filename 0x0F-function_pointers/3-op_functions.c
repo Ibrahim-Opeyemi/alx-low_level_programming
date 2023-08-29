@@ -1,4 +1,7 @@
 #include "3-calc.h"
+#include "function_pointers.h"
+#include <stddef.h>
+
 /**
  * op_add - This is a function that returns the sum of a and b.
  * @a: The first integer
