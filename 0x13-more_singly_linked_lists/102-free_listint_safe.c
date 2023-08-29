@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * free_listint_safe - a function that frees a listint_t list.
@@ -24,4 +25,3 @@ size_t free_listint_safe(listint_t **h)
 	}
 	return (count);
 }
-
