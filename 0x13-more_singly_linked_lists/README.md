@@ -45,6 +45,7 @@ The project consists of 11 Mandatory Tasks & 4 Advanced Tasks.
 - Returns: 1 if it succeeded, -1 if it failed
 
 **ADVANCED TASKS:**
+
 12. Writing a function that reverses a listint_t linked list.
 - Prototype: listint_t *reverse_listint(listint_t **head);
 - Returns: a pointer to the first node of the reversed list
