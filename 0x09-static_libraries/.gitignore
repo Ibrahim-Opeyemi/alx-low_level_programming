@@ -1,3 +1,6 @@
 _putchar.c
 quote
 main.c
+*.o
+*.c
+
